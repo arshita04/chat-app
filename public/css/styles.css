@@ -10,7 +10,7 @@ html {
     font-size: 16px;
 }
 
-input {
+input , textarea {
     font-size: 14px;
 }
 
@@ -31,7 +31,7 @@ label {
     color: #777;
 }
 
-input {
+textarea , input {
     border: 1px solid #eeeeee;
     padding: 12px;
     outline: none;
@@ -115,13 +115,34 @@ button:disabled {
 /* Message Styles */
 
 .message {
-    margin-bottom: 16px;   
+    margin-bottom: 16px; 
 }
-
+.me{
+   text-align:right;
+}
+.me div{
+    width:auto;
+    display:inline-block;
+    background-color: #6b47b8;
+    padding:10px;
+    color:#fff;
+}
+.other-message div
+{
+    width:auto;
+    display:inline-block;
+    background-color: #bda8eb;
+    padding:10px;
+    color:#000;
+}
+.admin{
+    text-align:center;
+}
 .message__name {
     font-weight: 600;
     font-size: 14px;
     margin-right: 8px;
+    color:#000;
 }
 
 .message__meta {
@@ -130,7 +151,8 @@ button:disabled {
 }
 
 .message a {
-    color: #0070CC;
+    color: #fff;
+
 }
 
 /* Message Composition Styles */
@@ -148,7 +170,7 @@ button:disabled {
     margin-right: 16px;
 }
 
-.compose input {
+.compose textarea {
     border: 1px solid #eeeeee;
     width: 100%;
     padding: 12px;
