@@ -115,4 +115,8 @@ module.exports = {
 //     room:'West'
 // })
 // console.log(users)
+<<<<<<< HEAD
 // console.log(rooms)
+=======
+// console.log(rooms)
+>>>>>>> 2286909b1e664d71ab86d6928b7dc9666dccecfd
